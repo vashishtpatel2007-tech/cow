@@ -9,6 +9,8 @@
  * (level H tolerates ~30% damage — mud, sun-bleaching, a torn corner), a wide
  * quiet zone, and the tag number printed in human-readable text underneath as
  * the fallback when the code is finally too scuffed to scan.
+ *
+ * This will be the tag that connects every cow to its farmer to help us connect farmer to cattle in case of emergency.
  */
 
 import { useEffect, useRef, useState } from 'react';
