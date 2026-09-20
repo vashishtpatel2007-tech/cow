@@ -1,10 +1,4 @@
-/**
- * PashuGuard Collar Firmware (GSM/LTE Edition)
- * Hardware: ESP32 + 7Semi EC200U (LTE)
- * 
- * NOTE: This is the GSM variant of the collar. It uses TinyGSM to send JSON 
- * directly over HTTPS to the Supabase Cloud.
- */
+
 
 #define TINY_GSM_MODEM_SIM7600 // EC200U shares AT commands with SIM7600
 #include <TinyGsmClient.h>

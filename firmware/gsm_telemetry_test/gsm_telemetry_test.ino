@@ -1,9 +1,4 @@
-/**
- * GSM Live Telemetry Test - NATIVE AT COMMAND VERSION
- * 
- * Bypasses ArduinoHttpClient and TinyGsmClientSecure entirely.
- * Uses the EC200U's native AT+QHTTP commands to bypass SSL certificate rejection.
- */
+
 #define TINY_GSM_DEBUG Serial
 #define TINY_GSM_MODEM_SIM7600 // We keep this just for the basic modem setup
 #include <TinyGsmClient.h>
